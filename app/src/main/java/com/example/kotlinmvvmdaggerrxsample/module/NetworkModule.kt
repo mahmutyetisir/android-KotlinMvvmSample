@@ -11,6 +11,7 @@ import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.moshi.MoshiConverterFactory
 
 @Module
+@Suppress("unused")
 object NetworkModule {
 
     @Provides
@@ -20,6 +21,9 @@ object NetworkModule {
         return retrofit.create(PostApi::class.java)
     }
 
+    @Provides
+    @Reusable
+    @JvmStatic
     internal fun provideRetrofitInterface(): Retrofit {
         return Retrofit.Builder()
             .baseUrl(BASE_URL)

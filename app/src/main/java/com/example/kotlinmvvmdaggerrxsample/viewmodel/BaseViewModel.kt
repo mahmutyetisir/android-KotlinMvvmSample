@@ -1,6 +1,7 @@
 package com.example.kotlinmvvmdaggerrxsample.viewmodel
 
 import androidx.lifecycle.ViewModel
+import com.example.kotlinmvvmdaggerrxsample.di.component.DaggerViewModelInjector
 import com.example.kotlinmvvmdaggerrxsample.di.component.ViewModelInjector
 import com.example.kotlinmvvmdaggerrxsample.module.NetworkModule
 import com.example.kotlinmvvmdaggerrxsample.ui.post.PostListViewModel
