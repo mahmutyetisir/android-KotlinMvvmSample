@@ -8,10 +8,13 @@
         tools:context=".MainActivity">
 
     <androidx.appcompat.widget.AppCompatButton
+            style="@style/Widget.MaterialComponents.Button"
             android:id="@+id/btn_open_post_list_activity"
             android:layout_width="200dp"
             android:layout_height="60dp"
             android:text="Open Post List"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"

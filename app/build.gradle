@@ -39,7 +39,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0-alpha4'
 
     // Support Design
-    implementation "com.google.android.material:material:1.0.0-rc01"
+    implementation "com.google.android.material:material:1.2.0-alpha01"
 
     // RecyclerView
     implementation "androidx.recyclerview:recyclerview:1.0.0"
